@@ -4,7 +4,7 @@
 애너그램을 만드는 프로그램
 
 길이 n 인 문자열이 뒤섞일 수 있는 경우의 수는 아래와 같이 주어진다.
-(공백이 추가되어 여러 문자열로 쪼개지는 상황을 생각)
+* 공백이 추가되어 여러 문자열로 쪼개지는 상황도 고려 (William Shakespeare => I am a weakish speller)
 * 알파 i 는 i 번째 알파벳의 개수를 의미
 
 ![cn](http://latex.codecogs.com/gif.latex?%5Chuge%20c%28n%29%20%3D%20%5Cfrac%7Bn%21%20%5Ctimes%202%5E%7Bn-1%7D%7D%7B%5Cprod_%7Bi%3D1%7D%5E%7B26%7D%5Calpha_%7Bi%7D%7D)
